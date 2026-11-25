@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+# JavaScript
+node_modules/
+dist/
+build/
+coverage/
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Local tooling
+.DS_Store
+.n8n/
+*.log
